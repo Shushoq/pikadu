@@ -1,0 +1,76 @@
+.posts
+  width: 69%
+ 
+  margin-right: 30px
+.post
+  background-color: #fff
+  border: 1px solid #e8e8e8
+  margin-bottom: 30px
+  &__body
+    padding: 35px 35px 0 35px
+  &__title
+    color: #262626
+    font-weight: 600
+    font-size: 16px
+    line-height: 24px
+  &__text
+    margin-top: 19px
+    font-size: 14px
+    line-height: 22px
+  &__tags
+    margin-top: 10px
+  &__tag
+    margin-right: 10px
+    color: $tag-color
+    font-size: 14px
+    line-height: 22px
+    &:hover
+      color: #8C8C8C
+      
+  &__footer
+    margin-top: 22px
+    background: #fafafa
+    border-top: 1px solid #e8e8e8
+    display: flex
+    justify-content: space-between
+    padding: 13px 35px
+  &__buttons
+    display: flex
+  &__button
+    border: none
+    background-color: transparent
+    margin-right: 19px
+    cursor: pointer
+    align-items: center
+  &__counter
+    color: #8C8C8C
+    margin-left: 6.5px
+    font-size: 14px
+    line-height: 22px
+  &__author
+    display: flex
+    align-items: center
+    text-align: right
+    &-name
+      display: block
+      font-size: 12px
+      line-height: 20px
+      color: #8c8c8c
+    &-time
+      font-size: 12px
+      line-height: 20px
+      color: $tag-color
+    &-img
+      width: 34px
+      height: 34px
+      margin-left: 9px
+      border-radius: 4px
+      border-radius: 100%
+
+.icon
+  fill: #8C8C8C
+  width: 24px
+  height: 24px
+  &_likes
+    &:hover
+      fill: red

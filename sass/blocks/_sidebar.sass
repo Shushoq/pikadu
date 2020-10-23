@@ -1,0 +1,66 @@
+.sidebar
+  width: 31%
+  min-width: 250px
+  &__user
+    border: 1px solid #E8E8E8
+    &-info
+      display: flex
+      justify-content: space-between
+      align-items: center
+      padding: 15px 25px
+      background: $white-color
+      border-bottom: 1px solid #E8E8E8
+    &-name
+      margin-right: auto
+      font-weight: 600
+      font-size: 16px
+      line-height: 24px
+      color: #595959
+    &-photo
+      margin-right: 17px
+      width: 40px
+      height: 40px
+      border-radius: 100%
+    &-list
+    &-item
+      position: relative
+
+      &:hover
+        background-color: #FFFBE6
+        a
+          color: #FAAD14
+
+    &-link
+      display: inline-block
+      font-size: 14px
+      line-height: 22px
+      color: $grey-color
+      width: 100%
+      cursor: pointer
+      padding: 16px 16px 16px 40px
+      &_active
+        background-color: #FFFBE6
+        border-right: 3px solid #FAAD14
+.button
+  display: block
+  margin-top: 20px
+  position: relative
+  text-align: center
+  font-size: 16px
+  line-height: 24px
+  padding: 13px 13px 13px 13px
+  border-radius: 4px
+  color: #fff
+  cursor: pointer
+  transition: all .2s ease-in-out
+  box-shadow: 0 0 40px 40px #FAAD14 inset, 0 0 0 0 #FAAD14
+  &:hover
+    box-shadow: 0 0 5px 0 #FAAD14 inset, 0 0 5px 4px #FAAD14
+    color: #FAAD14
+    svg
+      fill: #FAAD14
+  .icon_fire
+    fill: #fff
+    width: 15px
+    height: 15px
+    margin-right: 10px
